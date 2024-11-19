@@ -1,0 +1,74 @@
+/* Reset default browser styles for consistency */
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+/* Body styling for background and layout */
+body {
+    font-family: Arial, sans-serif;
+    background: #00f0ff; /* Neon blue background */
+    color: white; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    text-align: center; 
+}
+
+/* Styling for the main content box */
+.container {
+    background: rgba(43, 43, 80, 0.8); /* Semi-transparent background */
+    border-radius: 20px; /* Rounded corners for a modern look */
+    padding: 30px; 
+    width: 90%;
+    max-width: 700px; 
+    box-shadow: 0 10px 30px rgba(0, 255, 255, 0.5); /* Neon glow effect */
+    backdrop-filter: blur(10px); /* Adds a frosted glass effect */
+}
+
+/* Header styling for the main title */
+h1 {
+    font-size: 2.5rem; 
+    margin-bottom: 15px; 
+    color: purple; 
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff; /* Glowing text */
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.2rem; 
+    margin: 10px 0;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff; /* Soft white glow */
+}
+
+/* Styling for the button */
+button {
+    background: #ff4757; /* Bright red for visibility */
+    border: none; 
+    border-radius: 20px; 
+    color: white; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 1rem; 
+    margin-top: 20px; 
+    transition: background 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    box-shadow: 0 5px 15px rgba(255, 71, 87, 0.6); /* Add neon glow to the button */
+}
+
+/* Button hover effect */
+button:hover {
+    background: #ff6b81; /* Lighten the red when hovered */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Styling for the image */
+.container img {
+    width: 80%;
+    max-width: 300px; 
+    border-radius: 50%; 
+    margin: 20px auto; 
+    display: block;
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff; /* Neon glow for the image */
+}
